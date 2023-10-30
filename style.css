@@ -37,9 +37,6 @@ button::before{
 button:hover::before{
     width: 9em;
 }
-html{
-    width: 30%;
-}
 .container{
     margin-left: 30%;
 }

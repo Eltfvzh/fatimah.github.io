@@ -1,0 +1,45 @@
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.ymI1DRLtwIDcHS-WZus_zQHaEK?pid=ImgDet&rs=1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-top: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    width: 9em;
+    height: 3em;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #a9a9a9,
+    -6px -6px 12px #ffffff;
+}
+button::before{
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #dc283a 0%, #e4389a 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+
+}
+button:hover::before{
+    width: 9em;
+}
+html{
+    width: 30%;
+}
+.container{
+    margin-left: 30%;
+}
